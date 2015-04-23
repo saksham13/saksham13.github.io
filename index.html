@@ -1,348 +1,375 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="SHORTCUT ICON" href="http://www.growxventures.com/favicon.ico"/>
-<title>vnsadvisory</title>
-<style type="text/css">
-body,td,th {
-	font-family: Verdana, Geneva, sans-serif;
-}
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background-color: #666;
-}
-#header {
-	height: 70px;
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #CCCCCC;
-	background-color: #FFF;
-}
-#header #inset1 {
-	height: 65px;
-	width: 1000px;
-	margin-top: 5px;
-	margin-right: auto;
-	margin-left: auto;
-}
-#header #inset1 #logo {
-	float: left;
-	height: 65px;
-	width: 220px;
-}
-.gap {
-	float: left;
-	height: 30px;
-	width: 20px;
-}
-.noborder {
-	border-top-width: 0px;
-	border-right-width: 0px;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
-}
-#header #inset1 #navigation {
-	float: right;
-	height: 65px;
-	width: 750px;
-	margin-right: 5px;
-}
-#header #inset1 #navigation #menu {
-	float: right;
-	height: 20px;
-	width: 520px;
-	margin-top: 40px;
-	font-size: 14px;
-	color: #646464;
-	padding-top: 6px;
-}
-.menutabs {
-	float: left;
-	height: auto;
-	width: auto;
-	text-align: center;
-	margin-left: 25px;
-	padding: 0px;
-}
-.menutabs a {
-	color: #1EACBE;
-	height: auto;
-	width: auto;
-	text-decoration: none;
-	text-align: center;
-}
-.menutabs a:hover {
-	color: #333333;
-	height: auto;
-	width: auto;
-	text-decoration: none;
-	text-align: center;
-}
-#body {
-	height: 780px;
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #FFF;
-}
-#body #sections {
-	height: 780px;
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #FFF;
-}
-#body #sections #alltext  {
-	height: 780px;
-	width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-}
-#body #sections #alltext #headtag {
-	float: left;
-	height: 570px;
-	width: 1000px;
-	font-family: Verdana, Geneva, sans-serif;
-	text-align: center;
-	vertical-align: middle;
-}
-#body #sections #alltext #headtag #headtagtext {
-	float: left;
-	width: 1000px;
-	height: 40px;
-	font-size: xx-large;
-	line-height: 40px;
-	margin-top: 20px;
-	color: #999;
-}
-#body #sections #alltext #headtag #headtagpic {
-	float: left;
-	height: 470px;
-	width: 1000px;
-	margin-top: 25px;
-	background-image: url(pics/FULL.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-#body #sections #alltext #col1  {
-	float: left;
-	height: 200px;
-	width: 325px;
-}
-#body #sections #alltext #col2  {
-	float: left;
-	height: 200px;
-	width: 325px;
-	margin-right: 5px;
-	margin-left: 10px;
-}
-#body #sections #alltext #col3  {
-	float: left;
-	height: 200px;
-	width: 325px;
-	margin-left: 5px;
-}
-.picture {
-	float: left;
-	height: 250px;
-	width: 325px;
-}
-.section {
-	float: left;
-	height: 190px;
-	width: 325px;
-	margin-top: 10px;
-}
-.title {
-	font-size: 20px;
-	color: #999E1A;
-	float: left;
-	height: 30px;
-	width: 325px;
-	font-weight: normal;
-	margin-top: 5px;
-}
-.titletext {
-	font-size: 20px;
-	color: #1EACBE;
-	float: left;
-	height: 30px;
-	width: auto;
-	font-weight: normal;
-}
-.button {
-	float: right;
-	height: 30px;
-	width: 30px;
-	margin-right: 50px;
-}
-.aboutsection {
-	float: left;
-	height: 120px;
-	width: 310px;
-	margin-top: 20px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	padding-right: 5px;
-	text-align: justify;
-	line-height: 20px;
-}
-.aboutsectionCol2 {
-	float: left;
-	height: 120px;
-	width: 310px;
-	margin-top: 16px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	padding-right: 5px;
-	text-align: justify;
-	line-height: 20px;
-}
-#footer {
-	height: 30px;
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #666666;
-	border-top-width: 2px;
-	border-top-style: solid;
-	border-top-color: #5A5A5A;
-	color: #FFF;
-}
-#footer #footertext {
-	height: 20px;
-	width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Verdana, Geneva, sans-serif;
-	margin-top: 5px;
-}
-#footer #footertext #terms {
-	font-size: 11px;
-	float: left;
-	height: 18px;
-	width: 1000px;
-	text-align: center;
-}
-#footer #footertext #terms a {
-	text-decoration: none;
-	color: #CCC;
-}
-#footer #footertext #terms a:hover {
-	text-decoration: none;
-	color: #000000;
-}
-.GREEN {
-	color: #1EBE81;
-}
-</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>VNSAdvisory</title>
 
-<script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
+<!-- Custom CSS -->
+<link href="assets/css/main.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/animate-custom.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <script>
+    <?php
+            $firstname = $_POST['fname'];
+    $lastname = $_POST['lname'];
+
+    $to = "someone@example.com";
+    $subject = "Hello World";
+    $message = "Firstname: $firstname \n\n Lastname: $lastname";
+    $from = "sender@example.com";
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent.";
+    ?>
+
+  </script>
+    <![endif]-->
+
 </head>
 
-<body onload="MM_preloadImages('pics/button_up.png')">
-<div id="header">
-  <div id="inset1">
-    <div id="logo"><a href="#"><img src="pics/logo.png" alt="growmore ventures logo" width="86" height="63" class="noborder" /></a></div>
-    <div id="navigation">
-      <div id="menu">
-        <div class="menutabs" id="home"><a href="Main.html">WHAT WE DO</a></div>
-        <div class="menutabs" id="team"><a href="team.html">WHO WE ARE</a></div>
-        <div class="menutabs" id="portfolio"><a href="portfolio.html">OUR PORTFOLIO</a></div>
-        <div class="menutabs" id="contact"><a href="contact.html">CONTACT US</a></div>
-      
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+<div id="navbar-main"> 
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#home">VNSAdvisory</a> </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li> <a href="#about" class="smoothScroll"> About</a></li>
+          <li> <a href="#services" class="smoothScroll"> Services</a></li>
+          <li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
+          <li> <a href="#team" class="smoothScroll"> Team</a></li>
+          <li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+        </ul>
       </div>
+      <!--/.nav-collapse --> 
     </div>
   </div>
-</div> <!--closing div of header-->
-
-
-<div id="body">
-  <div id="sections">
-<div id="alltext">
-<div id="headtag">
-<div id="headtagtext">WE ARE EARLY STAGE <span class="GREEN">INVESTORS</span>.</div>
-<div id="headtagpic">
-</div>
 </div>
 
-      <div class="text" id="col1">
+<!-- ==== HEADERWRAP ==== -->
+<div id="headerwrap" name="home">
+  <header class="clearfix"> <i class="fa fa-language icon"></i>
+    <h1>Invested in you at an early stage!</h1>
+    <p>enabling entrepreneurship, innovation, mentoring, incubation, investments and funding<br>
+      </p>
+    <a href="#portfolio" class="smoothScroll btn btn-lg">See Our Works</a> </header>
+</div>
+<!-- /headerwrap --> 
+
+<!-- ==== ABOUT ==== -->
+<div id="about" name="about">
+  <div class="container">
+    <div class="row white">
+      <h2 class="centered">ABOUT US</h2>
+      <hr>
+      <div class="col-md-6"> <img class="img-responsive" src="assets/img/about/about1.jpg" align=""> </div>
+      <div class="col-md-6">
+        <h3>Who we are</h3>
+        <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te sit malorum ceteros repudiandae, ne tritani adipisci vis.</p>
+        <h3>Why choose us?</h3>
+        <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel.</p>
+      </div>
+    </div>
+    <!-- row --> 
+  </div>
+</div>
+<!-- container --> 
+
+<!-- ==== SERVICES ==== -->
+<div id="services" name="services">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">OUR SERVICES</h2>
+      <hr>
+      <!--<div class="col-lg-8 col-lg-offset-2">
+        <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+      </div>-->
+      <div class="col-lg-4 callout"> <i class="fa fa-desktop fa-3x"></i>
+        <h3>Entrepreneurship</h3>
+        <li>Business Plans and financial modeling</li>
+        <li>Go to market strategy + Strategic Roadmap</li>
+        <li>Robust marketing and customer acquisition plan</li>
+        <li>Compliance and regulatory gap analysis</li>
+        <!--<p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
+    -->  </div>
+      <div class="col-lg-4 callout"> <i class="fa fa-gears fa-3x"></i>
+        <h3>Funding</h3>
+        <li>Investor pitch</li>
+        <li>Valuation</li>
+        <li>Connecting with investors</li>
+        <li>Term sheets</li>
+        <!--<p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
+     --> </div>
+      <div class="col-lg-4 callout"> <i class="fa fa-dot-circle-o fa-3x"></i>
+        <h3>Strategic Consulting</h3>
+        <li>Market entry</li>
+        <li>Outsourcing model – Captive, Hybrid, Third Party</li>
+        <li>Vendor selection and management</li>
+        <li>Operational efficiency</li>
+      <!--  <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
+     div --></div>
+    </div>
+    <!-- row --> 
+  </div>
+</div>
+<!-- container --> 
+
+<!-- ==== PORTFOLIO ==== -->
+<div id="portfolio" name="portfolio">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">OUR PORTFOLIO</h2>
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2 centered">
+        <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+      </div>
+    </div>
+    <!-- /row -->
+    <div class="container">
+      <div class="row"> 
         
-        <div class="section" id="section1">
-        <div class="title" id="title"><div class="titletext" id="titletext">WHAT WE DO</div>
-        <div class="button" id="button"><a href="Main.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('but_left','','pics/button_up.png',1)"><img src="pics/button.png" name="but_left" width="30" height="30" class="noborder" id="Image19" /></a>
-        </div></div>
-        <div class="aboutsection" id="aboutsection">We get close to our clients. We learn their business. We develop precisely tailored, custom strategies that serve them best. Our clients are our partners. They have a stake in our solutions and we have a stake in their success. - See more at: http://www.acquisconsulting.com/#sthash.rq8K9qVk.dpuf</div>
+        <!-- PORTFOLIO IMAGE 1 -->
+        <div class="col-md-4 ">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
+              <figcaption>
+                <h5>UX / UI</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
+        </div>
+        
+        <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Project Title</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="assets/img/portfolio/folio01-preview.jpg" alt=""></p>
+                <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel</p>
+                <p><b><a href="#">Visit Site</a></b></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content --> 
+          </div>
+          <!-- /.modal-dialog --> 
+        </div>
+        <!-- /.modal --> 
+        
+        <!-- PORTFOLIO IMAGE 2 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
+              <figcaption>
+                <h5>CONCEPT</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
+        </div>
+        
+        <!-- PORTFOLIO IMAGE 3 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
+              <figcaption>
+                <h5>UX / UI</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
         </div>
       </div>
-      <div class="text" id="col2">
+      <!-- /row --> 
       
-      <div class="section" id="section1">
-        <div class="title" id="title">
-          <div class="titletext" id="titletext">WHO WE ARE</div>
-        <div class="button" id="button"><a href="team.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('but_middle','','pics/button_up.png',1)"><img src="pics/button.png" name="but_middle" width="30" height="30" class="noborder" id="Image19" /></a>
-        </div></div>
-        <div class="aboutsectionCol2" id="aboutsection">A team with the unique expertise to deliver exceptional results - See more at: http://www.acquisconsulting.com/#sthash.rq8K9qVk.dpuf</div>
+      <!-- PORTFOLIO IMAGE 4 -->
+      <div class="row">
+        <div class="col-md-4 ">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="assets/img/portfolio/folio04.jpg" alt="">
+              <figcaption>
+                <h5>CONCEPT</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
         </div>
-      
-      
-      
+        
+        <!-- PORTFOLIO IMAGE 5 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
+              <figcaption>
+                <h5>UX / UI</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
+        </div>
+        
+        <!-- PORTFOLIO IMAGE 6 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
+              <figcaption>
+                <h5>CMS INTEGRATION</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
+        </div>
+        <!-- /col --> 
       </div>
-      <div class="text" id="col3">
-      <div class="section" id="section1">
-        <div class="title" id="title">
-          <div class="titletext" id="titletext">OUR PORTFOLIO</div>
-        <div class="button" id="button"><a href="portfolio.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('but_right','','pics/button_up.png',1)"><img src="pics/button.png" name="but_right" width="30" height="30" class="noborder" id="Image19" /></a>
-        </div></div>
-        <div class="aboutsection" id="aboutsection">at vns, we work with some of the world's most visionary entrepreneurs and business leaders to build truly transformational companies. our active portfolio includes more than 300 growing businesses in the technology and healthcare sectors.</div>
-        </div>
-      
-      
-      
+      <!-- /row --> 
+    </div>
+    <!-- /row --> 
+  </div>
+</div>
+<!-- /container --> 
+
+<!-- ==== TEAM MEMBERS ==== -->
+<div id="team" name="team">
+  <div class="container">
+    <div class="row centered">
+      <h2 class="centered">MEET OUR TEAM</h2>
+      <hr>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/Jothi.jpg" height="120px" width="120px" alt="">
+        <h4><strong>Jothi</strong></h4>
+        <p>Entrepreneur and Angel Investor</p>
+        <a href="#"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/jothi.potluri?fref=ts"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/pub/lakshmi-jothi-potluri/1/591/a12"><i class="fa fa-linkedin"></i></a> </div>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/Vinit.jpg" height="120px" width="120px" alt="">
+        <h4><b>Vinit</b></h4>
+        <p>Entrepreneur and Angel Investor</p>
+        <a href="#"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/vinit.vins?fref=ts"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/in/vinitsrivastava"><i class="fa fa-linkedin"></i></a> </div>
+      <!--<div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team03.jpg" height="120px" width="120px" alt="">
+        <h4><b>Michele</b></h4>
+        <p>Albucius consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
+        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team04.jpg" height="120px" width="120px" alt="">
+        <h4><b>Larry</b></h4>
+        <p>Albucius consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
+        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
+    -->  <div class="col-lg-8 col-lg-offset-2 centered">
+        <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
       </div>
     </div>
-
   </div>
-  
-  
-   
-</div><!--closing div of body-->
-<div id="footer">
-  <div id="footertext">
-    <div id="terms">&copy;&nbsp;2013 GrowMore Venture Management Pvt. Ltd. All rights reserved.</div><div id="iTestify_inline_container"></div>
+  <!-- row --> 
 </div>
-</div> <!--closing div of footer-->
+<!-- container --> 
+
+<!-- ==== CONTACT ==== -->
+<div id="contact" name="contact">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">CONTACT US</h2>
+      <p>Reach out VNS support, when it matters the most</p>
+      <hr>
+
+      <div class="col-md-4 centered"> <i class="fa fa-map-marker fa-2x"></i>
+        <p>DLF Gardencity<br>
+          Chennai</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+        <p> <a href="mailto:grover.saksham@gmail.com?subject=need nosiness">info@companyname.com</a> </p><!--<p>info@companyname.com</p>-->
+      </div>
+      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
+        <p> +1 800 123 1234</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 centered">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        <form id="contact" action="MAILTO:grover.saksham@gmail.com" method="post" enctype="text/plain"  class="form" role="form">
+          <div class="row">
+            <div class="col-xs-6 col-md-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+            </div>
+            <div class="col-xs-6 col-md-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+            </div>
+          </div>
+          <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea>
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <button class="btn btn btn-lg" type="submit" value="Send">Send Message</button>
+            </div>
+          </div>
+        </form>
+        <!-- form --> 
+      </div>
+    </div>
+    <!-- row --> 
+    
+  </div>
+</div>
+<!-- container -->
+
+<div id="footerwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8"> <span class="copyright">Copyright &copy; 2015 VNSAdvisory. </span> </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/retina.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script> 
+<script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+<script type="text/javascript" src="assets/js/jquery-func.js"></script>
 </body>
 </html>
