@@ -14,8 +14,8 @@
 <link href="assets/css/main.css" rel="stylesheet">
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/css/animate-custom.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 <script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
 
@@ -46,11 +46,51 @@
 <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
 <div id="navbar-main"> 
   <!-- Fixed navbar -->
-  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="
+    background-color: rgb(245, 245, 245);
+">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand" href="#home"> <img class="img-responsive" src="assets/img/logo/VNSimage.png" alt="" style="
+    height: 30px;
+    background: none;
+    margin-top: -5px;
+
+">
+                    <img class="img-responsive" src="assets/img/logo/VNSwritten.png" alt="" style="
+    height: 25px;
+    background: none;
+    padding-left: 80px;
+    margin-top: -25px;
+"> </a> </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li class="active"> <a href="#about" class="smoothScroll"> Vision</a></li>
+                    <li class=""> <a href="#services" class="smoothScroll"> Services</a></li>
+                    <li class=""> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
+                    <li class=""> <a href="#team" class="smoothScroll"> Team</a></li>
+                    <li class=""> <a href="#contact" class="smoothScroll"> Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="#home">VNSAdvisory</a> </div>
+        <a class="navbar-brand" href="#home"> <img class="img-responsive" src="assets/img/logo/VNSimage.png" alt="" style="
+    height: 30px;
+    background: none;
+
+">
+            <img class="img-responsive" src="assets/img/logo/VNSwritten.png" alt="" style="
+    height: 30px;
+    background: none;
+    padding-left: 80px;
+    margin-top: -25px;
+"> </a> </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#home" class="smoothScroll">Home</a></li>
@@ -111,7 +151,7 @@
   </div>
 </div>
 <!-- container --> 
-
+</body>
 <!-- ==== SERVICES ==== -->
 <div id="services" name="services">
   <div class="container">
@@ -119,7 +159,7 @@
       <h2 class="centered">OUR SERVICES</h2>
       <hr>
 
-      <div class="col-lg-3 "> <i class="fa fa-desktop fa-3x"></i>
+      <div class="col-lg-4 "> <i class="fa fa-desktop fa-3x"></i>
         <h3>Entrepreneurship</h3>
         <li>Business Plans and financial modeling</li>
         <li>Go to market strategy + Strategic Roadmap</li>
@@ -127,7 +167,7 @@
         <li>Compliance and regulatory gap analysis</li>
         <!--<p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
     -->  </div>
-      <div class="col-lg-2 "> <i class="fa fa-gears fa-3x"></i>
+      <div class="col-lg-4 "> <i class="fa fa-gears fa-3x"></i>
         <h3>Funding</h3>
         <li>Investor pitch</li>
         <li>Valuation</li>
@@ -135,7 +175,7 @@
         <li>Term sheets</li>
         <!--<p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
      --> </div>
-      <div class="col-lg-3 "> <i class="fa fa-dot-circle-o fa-3x"></i>
+      <div class="col-lg-4 "> <i class="fa fa-dot-circle-o fa-3x"></i>
         <h3>Strategic Consulting</h3>
         <li>Market entry</li>
         <li>Outsourcing model – Captive, Hybrid, Third Party</li>
@@ -145,14 +185,17 @@
      div -->
 
       </div>
-      <div class="col-lg-4 "> <i class="fa fa-desktop fa-3x"></i>
-        <h3>Ecommerce Demystified</h3>
-        <li>logistics partners</li>
-        <li>payment gateways</li>
-        <li>handling shipments, listing and managing marketplaces</li>
-        <li>marketing</li>
-        <!--<p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
-    -->  </div>
+        <br><br>
+        <div class="col-lg-4 " style="
+    padding-top: 25px;
+"> <i class="fa fa-desktop fa-3x"></i>
+            <h3>Ecommerce Demystified</h3>
+            <li>logistics partners</li>
+            <li>payment gateways</li>
+            <li>handling shipments, listing and managing marketplaces</li>
+            <li>marketing</li>
+            <!--<p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
+        -->  </div>
     </div>
     <!-- row -->
    <!-- <br><br>
@@ -166,6 +209,8 @@
 <!-- container --> 
 
 <!-- ==== PORTFOLIO ==== -->
+
+
 <div id="portfolio" name="portfolio">
   <div class="container">
     <div class="row">
@@ -174,28 +219,8 @@
       <!--<div class="col-lg-8 col-lg-offset-2 centered">
         <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
       </div>
-    --></div>
-    <!-- /row -->
-  <!--  <div class="gallery-control">
-      <div data-toggle="buttons">
-        <label class="btn btn-outline filter active" data-filter="phone tablet desktop">
-          <input type="radio" name="options" id="option1">
-          All
-        </label>
-        <label class="btn btn-outline filter" data-filter="phone">
-          <input type="radio" name="options" id="option2">
-          Investment
-        </label>
-        <label class="btn btn-outline filter" data-filter="tablet">
-          <input type="radio" name="options" id="option3">
-          Advisory
-        </label>
-        <label class="btn btn-outline filter" data-filter="desktop">
-          <input type="radio" name="options" id="option3">
-          Partners
-        </label>
-      </div>
-    </div>-->
+    -->
+
 
     <div class="container">
       <div class="row"> 
@@ -214,7 +239,7 @@
 
               <figcaption>
                 <h5>Velvetcase</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+                <a data-toggle="modal" href="http://velvetcase.com/" class="btn btn-default">Visit Site</a> </figcaption>
               <!-- /figcaption -->
             </figure>
             <!-- /figure -->
@@ -223,30 +248,7 @@
           <!-- /grid-mask -->
         </div>
 
-        <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-						      a modal for each of your projects. -->
-        
-      <!--  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Project Title</h4>
-              </div>
-              <div class="modal-body">
-                <p><img class="img-responsive" src="assets/img/portfolio/folio01-preview.jpg" alt=""></p>
-                <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel</p>
-                <p><b><a href="#">Visit Site</a></b></p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-            &lt;!&ndash; /.modal-content &ndash;&gt;
-          </div>
-          &lt;!&ndash; /.modal-dialog &ndash;&gt;
-        </div>-->
-        <!-- /.modal -->
+
         
         <!-- PORTFOLIO IMAGE 2 -->
         <div class="col-md-4">
@@ -254,7 +256,7 @@
             <figure> <img class="img-responsive" src="assets/img/portfolio/pickme.jpg" alt="">
               <figcaption>
                 <h5>Pickme</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+                <a data-toggle="modal" href="http://pickmeindia.com/" class="btn btn-default">Visit Site</a> </figcaption>
               <!-- /figcaption -->
             </figure>
             <!-- /figure -->
@@ -271,7 +273,7 @@
 ">
               <figcaption>
                 <h5>Purplle</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+                <a data-toggle="modal" href="http://purplle.com/" class="btn btn-default">Visit Site</a> </figcaption>
               <!-- /figcaption -->
             </figure>
             <!-- /figure -->
@@ -285,10 +287,13 @@
       <div class="row">
         <div class="col-md-4 ">
           <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/qedlogo.png" alt="">
+            <figure>
+              <img class="img-responsive" src="assets/img/portfolio/qedlogo.png" alt="" style="
+    background-color: grey;
+">
               <figcaption>
                 <h5>QEDQUEST.com (EVerest edusys)</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+                <a data-toggle="modal" href="http://www.qedquest.com/qed/index.php" class="btn btn-default">Visit Site</a> </figcaption>
               <!-- /figcaption -->
             </figure>
             <!-- /figure -->
@@ -297,18 +302,21 @@
         </div>
         
         <!-- PORTFOLIO IMAGE 5 -->
-      <!--  <div class="col-md-4">
+        <div class="col-md-4">
           <div class="grid mask">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/travelling.png" alt="">
+            <figure>
+              <img class="img-responsive" src="assets/img/portfolio/travelling.png" alt="" style="
+    background-color: grey;
+">
               <figcaption>
                 <h5>Travellingspoon</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              &lt;!&ndash; /figcaption &ndash;&gt;
+                <a data-toggle="modal" href="http://travelingspoon.com/" class="btn btn-default">Visit Site</a> </figcaption>
+              <!-- /figcaption -->
             </figure>
-            &lt;!&ndash; /figure &ndash;&gt;
+            <!-- /figure -->
           </div>
-          &lt;!&ndash; /grid-mask &ndash;&gt;
-        </div>-->
+          <!-- /grid-mask -->
+        </div>
         
         <!-- PORTFOLIO IMAGE 6 -->
         <!--<div class="col-md-4">
@@ -375,6 +383,7 @@
     <!-- /row -->
   </div>
 </div>
+    </div>
 <!-- /container --> 
 
 <!-- ==== TEAM MEMBERS ==== -->
@@ -386,7 +395,7 @@
       <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/Jothi.jpg" height="120px" width="120px" alt="">
         <h4><strong>Jothi</strong></h4>
         <p>Entrepreneur and Angel Investor</p>
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/jothi.potluri?fref=ts"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/pub/lakshmi-jothi-potluri/1/591/a12"><i class="fa fa-linkedin"></i></a> </div>
+       <!-- <a href="#"><i class="fa fa-twitter"></i></a>--> <a href="https://www.facebook.com/jothi.potluri?fref=ts"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/pub/lakshmi-jothi-potluri/1/591/a12"><i class="fa fa-linkedin"></i></a> </div>
        <!--<div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team03.jpg" height="120px" width="120px" alt="">
         <h4><b>Michele</b></h4>
         <p>Albucius consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
@@ -396,23 +405,26 @@
         <p>Albucius consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
         <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
     -->  <div class="col-lg-9 ">
-        <p class="large">Lakshmi Potluri i a background in investment banking(Goldman Sachs, Hong Kong), technology (IBM, Austin) and  former co-founder of jabong.com, a leading online lifestyle destination.
-          Lakshmi Potluri is an executive with more than a decade of global experience in technology/finance/retail/eCommerce & management.
+        <p class="large">Lakshmi Potluri has a background in investment banking(Goldman Sachs, Hong Kong), technology (IBM, Austin) and  former co-founder of jabong.com, a leading online lifestyle destination.
+          Lakshmi is an executive with more than a decade of global experience in technology/finance/retail/eCommerce & management.
           She has strong interest in entrepreneurship, career counseling, real estate and promoting social causes specifically victims of acid attacks.
           She currently lives in Mumbai and runs her consulting practice helping companies setup, build their businesses and facilitates early stage funding.</p>
       </div>
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/Vinit.jpg" height="120px" width="120px" alt="">
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/Vinit.jpg" height="120px" width="120px" alt="" style="
+    margin-top: 20px;
+">
         <h4><b>Vinit</b></h4>
         <p>Entrepreneur and Angel Investor</p>
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/vinit.vins?fref=ts"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/in/vinitsrivastava"><i class="fa fa-linkedin"></i></a> </div>
+        <!--<a href="#"><i class="fa fa-twitter"></i></a> --><a href="https://www.facebook.com/vinit.vins?fref=ts"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/in/vinitsrivastava"><i class="fa fa-linkedin"></i></a> </div>
       <div class="col-lg-9 ">
-        <p class="large">Vinit has over 12 years’ experience of successful business leadership in the ITeS space. He is also a cofounder and mentor for the preschool chain ‘Little Einsteins’ in India.
+        <p class="large">Vinit graduated from IIM Calcutta and has over 12 years’ experience of successful business leadership in the ITeS space. He is also a cofounder and mentor for the preschool chain ‘Little Einsteins’ in India.
 
-          Currently, he heads the Healthcare ITeS division of Technosoft. Technosoft Corporation is a leading IT and IT enabled services and professional staffing organization founded in 1996 and headquartered in Southfield, MI. In his tenure with Technosoft, Vinit has successfully launched two new lines of business in the company’s ITeS portfolio of services. Prior to that, he has worked with Apollo Health Street, a healthcare outsourcing firm based out of Hyderabad, and was managing their payer vertical. Vinit is a member of The Chennai Angels.
+            For year 2012, Little Einsteins was ranked as top 10 preschool chains in India and was recognized as top 100 franchisee brands.  Currently, he heads the Healthcare ITeS division of Technosoft. Technosoft Corporation is a leading IT and IT enabled services and professional staffing organization founded in 1996 and headquartered in Southfield, MI.
+            Prior to that, he has worked with Apollo Health Street, a healthcare outsourcing firm based out of Hyderabad, and was managing their payer vertical. Vinit is a member of The Chennai Angels.
 
-          He co-founded Little Einsteins, a chain of preschool based on Multiple Intelligence, along with his wife, Kopal. For year 2012, Little Einsteins was ranked as top 10 preschool chains in India and was recognized as top 100 franchisee brands. He is involved with Little Einsteins as a mentor, advising them on growth and expansion strategy through franchisee network in India.
 
-          Vinit graduated from IIM Calcutta.</p>
+
+          </p>
       </div>
 
     </div>
@@ -486,13 +498,13 @@
     <div class="row">
       <div class="col-md-8"> <span class="copyright">Copyright &copy; 2015 VNSAdvisory. </span> </div>
       <div class="col-md-4">
-        <ul class="list-inline social-buttons">
+       <!-- <ul class="list-inline social-buttons">
           <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
           <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
           <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
           <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
         </ul>
-      </div>
+     --> </div>
     </div>
   </div>
 </div>
@@ -508,3 +520,27 @@
 <script type="text/javascript" src="assets/js/jquery-func.js"></script>
 </body>
 </html>
+<!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+                             a modal for each of your projects. -->
+
+<!--  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Project Title</h4>
+        </div>
+        <div class="modal-body">
+          <p><img class="img-responsive" src="assets/img/portfolio/folio01-preview.jpg" alt=""></p>
+          <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel</p>
+          <p><b><a href="#">Visit Site</a></b></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      &lt;!&ndash; /.modal-content &ndash;&gt;
+    </div>
+    &lt;!&ndash; /.modal-dialog &ndash;&gt;
+  </div>-->
+<!-- /.modal -->
