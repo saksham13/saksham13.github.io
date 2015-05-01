@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-   <!-- <link rel="SHORTCUT ICON" href="assets/img/logo/VNSimage.ico"/>
--->
+    <link rel="SHORTCUT ICON" href="assets/img/logo/VNSimage.ico"/>
+
     <title>VNSAdvisory</title>
 
 <!-- Bootstrap core CSS -->
@@ -26,7 +26,21 @@
 <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <script>
+    <?php
+            $firstname = $_POST['fname'];
+    $lastname = $_POST['lname'];
 
+    $to = "someone@example.com";
+    $subject = "Hello World";
+    $message = "Firstname: $firstname \n\n Lastname: $lastname";
+    $from = "sender@example.com";
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent.";
+    ?>
+
+  </script>
     <![endif]-->
 
 </head>
@@ -35,23 +49,23 @@
 <div id="navbar-main"> 
   <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top" style="
-
+    background-color: rgb(245, 245, 245);
 ">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-               <!-- <a class="navbar-brand" href="#home"> <img class="img-responsive" src="assets/img/logo/VNSbluesimage4.png" alt="" style="
+                <a class="navbar-brand" href="#home"> <img class="img-responsive" src="assets/img/logo/VNSimage.png" alt="" style="
     height: 30px;
     background: none;
     margin-top: -5px;
 
 ">
-                    <img class="img-responsive" src="assets/img/logo/VNSblues4written.png" alt="" style="
+                    <img class="img-responsive" src="assets/img/logo/VNSwritten.png" alt="" style="
     height: 25px;
     background: none;
     padding-left: 80px;
     margin-top: -25px;
-"> </a>--></div>
+"> </a> </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home" class="smoothScroll">Home</a></li>
@@ -65,8 +79,32 @@
             <!--/.nav-collapse -->
         </div>
     </div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#home"> <img class="img-responsive" src="assets/img/logo/VNSimage.png" alt="" style="
+    height: 30px;
+    background: none;
 
-
+">
+            <img class="img-responsive" src="assets/img/logo/VNSwritten.png" alt="" style="
+    height: 30px;
+    background: none;
+    padding-left: 80px;
+    margin-top: -25px;
+"> </a> </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li> <a href="#about" class="smoothScroll"> Vision</a></li>
+          <li> <a href="#services" class="smoothScroll"> Services</a></li>
+          <li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
+          <li> <a href="#team" class="smoothScroll"> Team</a></li>
+          <li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
   </div>
 </div>
 
@@ -89,13 +127,11 @@
      <!--<div class="col-md-6"> <img class="img-responsive" src="assets/img/about/about1.jpg" align=""> </div>
 
       <div class="col-md-6">-->
-        <div class="col-lg-12 ">
         <h3>OUR GOAL IS TO FAST TRACK YOU TO THE BIG LEAGUE </h3>
         <p>VNS Advisory partners with early and mid stage startups to assist entrepreneurs towards building and scaling businesses.
           We work closely with the teams to help them crystallize their strategies, prepare their go-to market strategy, introduce them to relevant industry contacts.
           In businesses that are capital intensive or looking to scale rapidly we guide them on fund raising. Right from the business model, the pitch decks(presentations), prepare them for the investor presentations through direct one-one coaching, introduction to subject matter experts.
           The founder's are passionate about entrepreneurship and have established credibility with investors at all stages and  corporations across sectors.</p>
-     </div>
       <div class="col-lg-6 ">
       <h3>Get started</h3>
         <p>Many startups struggle with very basic things. Getting the basics right is perhaps one of the most critical investments.
@@ -108,10 +144,8 @@
       <h3>Early stage funding</h3>
       <p>If you are onto something disruptive and solving a gap that
         a) is not addressed in the market b) or is addresssed but you are going to revolutionize the experience and service then we SIMPLIFY your funding journey
-
-      </p>
-          <img  src="assets/img/ViciousCycle.png" alt="">
-
+       </p>
+        <img  src="assets/img/ViciousCycle.png" alt="">
       </div>
       <!-- </div>-->
     </div>
@@ -135,7 +169,6 @@
         <li>Compliance and regulatory gap analysis</li>
         <!--<p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
     -->  </div>
-
       <div class="col-lg-4 "> <i class="fa fa-gears fa-3x"></i>
         <h3>Funding</h3>
         <li>Investor pitch</li>
@@ -144,7 +177,6 @@
         <li>Term sheets</li>
         <!--<p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
      --> </div>
-
       <div class="col-lg-4 "> <i class="fa fa-dot-circle-o fa-3x"></i>
         <h3>Strategic Consulting</h3>
         <li>Market entry</li>
@@ -155,7 +187,7 @@
      div -->
 
       </div>
-
+        <br><br>
         <div class="col-lg-4 " style="
     padding-top: 25px;
 "> <i class="fa fa-desktop fa-3x"></i>
