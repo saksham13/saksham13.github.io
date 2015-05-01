@@ -5,7 +5,17 @@ body {
 	font-size: 1em;
 	line-height: 1.4;
 }
+.navbar-inverse .navbar-nav > li > a {
+	/*color: rgb(34, 57, 158);*/
+	color: rgb(0, 214, 243);
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	/*color: #fff;
+	background-color: #21389E;*/
 
+	background-color: #00D6F2;
+	border-color: #00DAF7;
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -265,7 +275,9 @@ a:before, a:after {
 	padding: 60px 0;
 }
 #about img {
-	margin-top: 65px;
+	margin-top: 0px;
+	margin-left: -100px;
+	height: 300px;
 }
 #services {
 	background: #f5f5f5;
@@ -543,7 +555,8 @@ body .header {
 
 
 
-/*JAI HO*/
+/*
+/!*JAI HO*!/
 .gallery-control {
 	margin: 0 0 30px;
 }
@@ -590,7 +603,7 @@ body .header {
 	-ms-transition: opacity .3s linear;
 	-moz-transition: opacity .3s linear;
 	-webkit-transition: opacity .3s linear;
-	/* ...and now override with proper CSS property */
+	/!* ...and now override with proper CSS property *!/
 
 	transition: opacity .3s linear;
 }
@@ -628,4 +641,4 @@ body .header {
 	#portfolio .mix {
 		width: 100%;
 	}
-}
+}*/
