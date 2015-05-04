@@ -26,21 +26,7 @@
 <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <script>
-    <?php
-            $firstname = $_POST['fname'];
-    $lastname = $_POST['lname'];
 
-    $to = "someone@example.com";
-    $subject = "Hello World";
-    $message = "Firstname: $firstname \n\n Lastname: $lastname";
-    $from = "sender@example.com";
-    $headers = "From:" . $from;
-    mail($to,$subject,$message,$headers);
-    echo "Mail Sent.";
-    ?>
-
-  </script>
     <![endif]-->
 
 </head>
@@ -82,7 +68,20 @@
 
 <!-- ==== HEADERWRAP ==== -->
 <div id="headerwrap" name="home">
-  <header class="clearfix"> <i class="fa fa-language icon"></i>
+    <div class=" col-lg-12 ">
+        <img  id="logoimage " src="assets/img/logo/VNSlogo.png" style="height: 153px;
+  margin-left: -34px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+             " >
+    </div>
+  <header class="clearfix">
+     <!-- <i class="fa fa-language icon"></i>-->
+
+
+
+
+
     <h1>Invested in you at an early stage!</h1>
     <p>enabling entrepreneurship, innovation, mentoring, incubation, investments and funding<br>
       </p>
@@ -99,10 +98,10 @@
     <!-- <div class="col-md-6"> <img class="img-responsive" src="assets/img/about/about1.jpg" align=""> </div>
 -->
         <div class="col-md-12 centered">
-            <p style="
+            <blockquote style="
     font-size: 22px;
 "><b>"To be a true partner with talented entrepreneurs, providing an unparalleled support ecosystem
-                to enable entrepreneurship, innovation, mentoring, incubation, investments and funding"</b></p>
+                to enable entrepreneurship, innovation, mentoring, incubation, investments and funding"</b></blockquote>
         </div>
       <!--<div class="col-md-12">
         <h3>OUR GOAL IS TO FAST TRACK YOU TO THE BIG LEAGUE </h3>
@@ -145,7 +144,7 @@
 
       <hr>
       <div class="col-md-12">
-          <h3>Outshine, Outperform - quickly and seamlessly</h3>
+          <h3>Outperform - quickly and seamlessly</h3>
           <p>VNS Advisory partners with early and mid stage startups to assist entrepreneurs towards building and scaling businesses.
               We work closely with the teams to help them crystallize their strategies, prepare their go-to market strategy, introduce them to relevant industry contacts.
               In businesses that are capital intensive or looking to scale rapidly we guide them on fund raising. Right from the business model, the pitch decks(presentations), prepare them for the investor presentations through direct one-one coaching, introduction to subject matter experts.
@@ -177,7 +176,7 @@
         <h3>Strategic Consulting</h3>
           <ul>
         <li>Market entry</li>
-        <li>Outsourcing model – Captive, Hybrid, Third Party</li>
+       <!-- <li>Outsourcing model – Captive, Hybrid, Third Party</li>-->
         <li>Vendor selection and management</li>
         <li>Operational efficiency</li>
       <!--  <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
@@ -468,7 +467,7 @@
     </div>
     <div class="col-md-12 centered"> <i class="fa fa-map-marker fa-2x"></i>
       <p>C03123, DLF Gardencity<br>
-        Chennai-603103</p>
+        Chennai-600119</p>
     </div>
     <div class="row">
      <!-- <div class="col-lg-8 col-lg-offset-2 centered">
