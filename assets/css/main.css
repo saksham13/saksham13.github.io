@@ -226,7 +226,11 @@ a:before, a:after {
 
 
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
+	/*background: url(../img/header_bg.jpg) no-repeat center top;
+	*/
+
+	background: url(../img/temporary_file.jpg) no-repeat center top;
+
 	margin-top: -50px;
 	padding-top: 120px;
 	text-align: center;
